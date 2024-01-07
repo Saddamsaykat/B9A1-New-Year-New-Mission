@@ -1,0 +1,38 @@
+/* 1 */
+/* font-family: 'Inter', sans-serif; */
+
+/* 2 */
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+.first-section {
+    background-image: url(./resources/BannerImage.png) , linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    
+    background-blend-mode:overlay;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 80%;
+    border-radius: 16px;
+    color: white;
+    margin: 2% auto;
+}
+.first-section-content {
+    text-align: center;
+     padding-top: 11%;
+     font-family: 'Merriweather', serif;
+     
+}
+.first-title{
+    font-size: 32px;
+    padding-bottom: 2%;
+    font-weight: 400;
+}
+.main-title{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 85px;
+}
+.d-block{
+    display: block;
+}
