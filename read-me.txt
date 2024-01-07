@@ -1,0 +1,13 @@
+<!-- Git Hub repository command line -->
+
+<!-- echo "# B9A1-New-Year-New-Mission" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Saddamsaykat/B9A1-New-Year-New-Mission.git
+git push -u origin main -->
+
+<!-- git remote add origin https://github.com/Saddamsaykat/B9A1-New-Year-New-Mission.git
+git branch -M main
+git push -u origin main -->
