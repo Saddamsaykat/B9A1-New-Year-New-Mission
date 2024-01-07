@@ -36,3 +36,35 @@ font-family: 'Merriweather', serif; */
 .d-block{
     display: block;
 }
+.second-section{
+    text-align: center;
+}
+
+.second-section-title-one{
+    font-family: 'Inter', sans-serif;
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: 700
+}
+.second-section-title-two{
+    font-family: 'Inter', sans-serif;
+
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.second-section-title-three{
+    font-family: 'Inter', sans-serif;
+
+    color: #070211;
+    font-size: 48px;
+
+    font-weight: 700;
+
+
+
+}
+.new-year-photo{
+    align-items: center;
+    width: 500px;
+}
