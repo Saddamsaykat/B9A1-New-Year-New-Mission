@@ -1,9 +1,4 @@
-/* 1 */
-/* font-family: 'Inter', sans-serif; */
-
-/* 2 */
-/* font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif; */
+/* First Section */
 .first-section {
     background-image: url(./resources/BannerImage.png) , linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
     
@@ -36,6 +31,9 @@ font-family: 'Merriweather', serif; */
 .d-block{
     display: block;
 }
+
+/* Second Section */
+
 .second-section{
     text-align: center;
 }
@@ -67,4 +65,19 @@ font-family: 'Merriweather', serif; */
 .new-year-photo{
     align-items: center;
     width: 500px;
+}
+
+
+/* Third Section */
+
+.third-section{
+    background-image: url(./resources/Vectorrr.png), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);;
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 80%;
+    border-radius: 16px;
+    color: white;
+    margin: 2% auto;
 }

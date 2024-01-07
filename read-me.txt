@@ -11,3 +11,12 @@ git push -u origin main -->
 <!-- git remote add origin https://github.com/Saddamsaykat/B9A1-New-Year-New-Mission.git
 git branch -M main
 git push -u origin main -->
+
+
+
+/* 1 */
+/* font-family: 'Inter', sans-serif; */
+
+/* 2 */
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
