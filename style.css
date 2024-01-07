@@ -1,9 +1,9 @@
 /* First Section */
 .first-section {
-    background-image: url(./resources/BannerImage.png) , linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-    
-    background-blend-mode:overlay;
-    
+    background-image: url(./resources/BannerImage.png), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+
+    background-blend-mode: overlay;
+
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -12,46 +12,52 @@
     color: white;
     margin: 2% auto;
 }
+
 .first-section-content {
     text-align: center;
-     padding-top: 11%;
-     font-family: 'Merriweather', serif;
-     
+    padding-top: 11%;
+    font-family: 'Merriweather', serif;
+
 }
-.first-title{
+
+.first-title {
     font-size: 32px;
     padding-bottom: 2%;
     font-weight: 400;
 }
-.main-title{
+
+.main-title {
     font-size: 60px;
     font-weight: 900;
     line-height: 85px;
 }
-.d-block{
+
+.d-block {
     display: block;
 }
 
 /* Second Section */
 
-.second-section{
+.second-section {
     text-align: center;
 }
 
-.second-section-title-one{
+.second-section-title-one {
     font-family: 'Inter', sans-serif;
     color: #FF0000;
     font-size: 88px;
     font-weight: 700
 }
-.second-section-title-two{
+
+.second-section-title-two {
     font-family: 'Inter', sans-serif;
 
     color: #FF0000;
     font-size: 24px;
     font-weight: 500;
 }
-.second-section-title-three{
+
+.second-section-title-three {
     font-family: 'Inter', sans-serif;
 
     color: #070211;
@@ -62,7 +68,8 @@
 
 
 }
-.new-year-photo{
+
+.new-year-photo {
     align-items: center;
     width: 500px;
 }
@@ -70,9 +77,10 @@
 
 /* Third Section */
 
-.third-section{
-    background-image: url(./resources/Vectorrr.png), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);;
-    background-blend-mode:overlay;
+.third-section {
+    background-image: url(./resources/Vectorrr.png), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    ;
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -80,4 +88,37 @@
     border-radius: 16px;
     color: white;
     margin: 2% auto;
+}
+.third-section-head-div{
+
+    margin-left: 83px;
+    margin-top: 90px;
+    padding-top: 85px;
+
+
+
+}
+.third-section-first-title{
+    font-family: 'Merriweather', serif;
+    letter-spacing: 7.04px;
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.third-section-second-title{
+    font-family: 'Inter', sans-serif;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.third-section-third-title{
+    font-family: 'Inter', sans-serif;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+/* Four Section */
+.four-section {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
 }
