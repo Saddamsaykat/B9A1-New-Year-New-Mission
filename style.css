@@ -217,7 +217,26 @@
 .section-six-fifty-percent-off-images {
     display: grid;
 }
-
+#section-six-title{
+    text-align: center;
+    margin-left: 100px;
+}
+#section-six-title>h3{
+    color: #070211;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    margin-top: 170px;
+    margin-right: 99px;
+}
+#section-six-title>h1{
+    color: #070211;
+font-size: 72px;
+font-family: Merriweather;
+font-weight: 900;
+margin-top: 30px;
+    margin-right: 99px;
+}
 /* Section Seven */
 .section-seven-div-tiitle-first-name {
     color: #FF0000;
@@ -294,8 +313,7 @@ margin-top: 1%;
     font-family: 'Inter', sans-serif;
     padding-bottom: 20px;
 }
-
-/* Start Coding */
+/* button */
 
 .section-eight-button input {
     height: 36px;
@@ -361,8 +379,7 @@ margin-top: 1%;
     text-align: center;
     width: 20px;
     padding: 2%;
-    /* align-items: center; */
-    /* padding-left: 10px; */
+    
 }
 
 .footer-logo-image>img {
