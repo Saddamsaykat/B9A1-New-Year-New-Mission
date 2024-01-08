@@ -211,8 +211,18 @@ padding: 20px;
 
 /* Section Seven */
 .section-seven-iamge{
-    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: ; */
+    margin-left: 2.5%;
+    gap: 6.5%;
+    margin:0 10%;
+}
+.section-seven-iamge>img{
+    height: 326px;
+    margin-top: 50px;
     
+
 }
 
 /* Section Eight */
@@ -238,28 +248,31 @@ padding: 20px;
     font-family: 'Inter', sans-serif; 
     padding-bottom: 20px;
 }
-.section-eight-button>input{
-    position: absolute;
+/* Start Coding */
+
+.section-eight-button input {
+    height: 36px;
+    width: 470px;
+    padding-left: 20px;
+    border: 0px solid rgb(138, 129, 129);
+    border-radius: 25px;
+
 }
-input[type="email"]{
-    border: none;
-    width: 45%;
-    height: 50px;
-}
-.section-eight-button>button{
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
+.section-eight-button button{
+    height: 37px;
+    width: 100px;
+    color: aliceblue;
     background-color: #FF0000;
-    color: white;
-    padding: 0 16px;
-    font-weight: 600;
-    border: none;
-    height: 50px;
-    font-size: 26px;
-  
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+border: 0;
+border-radius: 0px solid wheat;
+position: absolute;
+  right: 430px;
 }
+
+
+
 
 /* footer */
 .footer-content {
@@ -281,11 +294,15 @@ input[type="email"]{
 .footer-first-title>h4 {
     margin-right: 45%;
 }
-
+#social-logo{
+    margin-left: 40%;
+}
 #social-logo img {
     text-align: center;
+    width: 20px;
+    padding: 2%;
     /* align-items: center; */
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .footer-logo-image>img {
