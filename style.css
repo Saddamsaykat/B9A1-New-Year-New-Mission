@@ -135,26 +135,28 @@
 .four-section {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
     font-family: 'Inter', sans-serif;
-border-radius: 25px;
-margin-top: 5%;
-height: 100%;
-width: 80%;
-margin-left: 10%;
+    border-radius: 25px;
+    margin-top: 5%;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
 }
-.four-section-title-div{
-    text-align: center; 
+
+.four-section-title-div {
+    text-align: center;
     padding: 100px;
 }
 
-.four-section-title-div>h2{
+.four-section-title-div>h2 {
     padding: 10px;
     font-weight: 600;
     font-size: 32px;
 }
-#four-section-buttion{
+
+#four-section-buttion {
     margin-top: 3%;
     border: 0;
-    background-color: #FF0000 ;
+    background-color: #FF0000;
     padding: 1% 2%;
     color: white;
     border-radius: 5px;
@@ -163,68 +165,110 @@ margin-left: 10%;
 }
 
 /* Section Five */
-.section-five{
+.section-five {
     margin: 3% 10%;
     display: flex;
-    
+
     /* justify-content: space-around; */
     gap: 100px;
     align-items: flex-start;
     font-family: 'Inter', sans-serif;
 }
-.section-five-div-title-one{
+
+.section-five-div-title-one {
     width: 48%;
-    padding-top: 4%;   
-    }
-.section-five-div-title-one>h3{
+    padding-top: 4%;
+}
+
+.section-five-div-title-one>h3 {
     color: #FF0000;
 
 }
-.section-five-div-title-one>h2{
-    font-family: 'Merriweather', serif;  
-    font-size: 48px;
-    
+
+.section-five-div-title-one>h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+
 }
-.section-five-div-title-one>p{
+
+.section-five-div-title-one>p {
 
     margin-right: 10%;
     font-size: 10px;
 }
-.section-five-celebrateImage{
-width: 200px;
-height: 200px;
-/* align-items: center; */
-margin-right: 6%;
-padding-left: 5%;
-padding-right: 2%;
-border: 7px solid red;
-border-radius: 10000px;
-padding: 20px;
+
+.section-five-celebrateImage {
+    width: 200px;
+    height: 200px;
+    /* align-items: center; */
+    margin-right: 6%;
+    padding-left: 5%;
+    padding-right: 2%;
+    border: 7px solid red;
+    border-radius: 10000px;
+    padding: 20px;
 }
-.five-section-2024{
+
+.five-section-2024 {
     margin-top: 4%;
 }
+
 /* Section Six */
-.section-six-fifty-percent-off-images{
+.section-six-fifty-percent-off-images {
     display: grid;
 }
 
 /* Section Seven */
-.section-seven-iamge{
+.section-seven-div-tiitle-first-name {
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.section-seven-div-tiitle-second-name {
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.section-seven-div-tiitle-third-name{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 15px;
+font-family: Inter;
+font-weight: 400;
+margin-left: 10%;
+margin-top: 1%;
+}
+
+
+
+
+
+.section-seven-iamge {
     display: flex;
     flex-wrap: wrap;
     /* justify-content: ; */
     margin-left: 2.5%;
     gap: 6.5%;
-    margin:0 10%;
+    margin: 0 10%;
 }
-.section-seven-iamge>img{
+
+.section-seven-iamge>img {
     height: 326px;
     margin-top: 50px;
-    
+
 
 }
-
+.section-seven-iamge>img:hover{
+    border-radius: 15px;
+    border: 5px solid red;
+   
+}
 /* Section Eight */
 .section-eight {
     margin: 10% 10%;
@@ -233,21 +277,24 @@ padding: 20px;
     border-radius: 16px;
     text-align: center;
 }
-.section-eight>img{
+
+.section-eight>img {
     width: 80px;
     padding-bottom: 20px;
 }
 
-.section-eight>h1{
+.section-eight>h1 {
     font-family: 'Merriweather', serif;
     font-weight: 900;
     font-size: 30px;
     padding-bottom: 10px;
 }
-.section-eight>p{
-    font-family: 'Inter', sans-serif; 
+
+.section-eight>p {
+    font-family: 'Inter', sans-serif;
     padding-bottom: 20px;
 }
+
 /* Start Coding */
 
 .section-eight-button input {
@@ -258,17 +305,18 @@ padding: 20px;
     border-radius: 25px;
 
 }
-.section-eight-button button{
+
+.section-eight-button button {
     height: 37px;
     width: 100px;
     color: aliceblue;
     background-color: #FF0000;
-border-top-right-radius: 25px;
-border-bottom-right-radius: 25px;
-border: 0;
-border-radius: 0px solid wheat;
-position: absolute;
-  right: 430px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 0;
+    border-radius: 0px solid wheat;
+    position: absolute;
+    right: 430px;
 }
 
 
@@ -286,17 +334,29 @@ position: absolute;
 .footer-first-title {
     display: flex;
     justify-content: space-between;
+    font-size: 15px;
     margin-bottom: 2%;
     margin-right: 8%;
 
 }
 
 .footer-first-title>h4 {
-    margin-right: 45%;
+    margin-right: 40%;
 }
-#social-logo{
+.footer-title-position>h5{
+    font-size: 15px;
+    margin-left: -55%;
+}
+.website-link>h5{
+    margin-left: -55%;  
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+#social-logo {
     margin-left: 40%;
 }
+
 #social-logo img {
     text-align: center;
     width: 20px;
@@ -306,8 +366,8 @@ position: absolute;
 }
 
 .footer-logo-image>img {
-     
-    display:inline-block;
+
+    display: inline-block;
     align-items: center;
     padding: 10px;
     width: 55px;
