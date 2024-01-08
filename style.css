@@ -55,7 +55,8 @@
     font-family: 'Inter', sans-serif;
     color: #FF0000;
     font-size: 88px;
-    font-weight: 700
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .second-section-title-two {
@@ -64,6 +65,7 @@
     color: #FF0000;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .second-section-title-three {
@@ -73,7 +75,7 @@
     font-size: 48px;
 
     font-weight: 700;
-
+    margin-bottom: 35px;
 
 
 }
@@ -97,12 +99,13 @@
     border-radius: 16px;
     color: white;
     margin: 2% auto;
+    display: flex;
 }
 
 .third-section-head-div {
 
     margin-left: 83px;
-    margin-top: 90px;
+    margin-top: 40px;
     padding-top: 85px;
 
 
@@ -129,6 +132,13 @@
     margin-left: 10px;
     padding-top: 10px;
     font-size: 20px;
+}
+
+.new-year-logo {
+    margin-left: 50px;
+    height: 342px;
+
+    margin-top: 7%;
 }
 
 /* Four Section */
@@ -168,8 +178,6 @@
 .section-five {
     margin: 3% 10%;
     display: flex;
-
-    /* justify-content: space-around; */
     gap: 100px;
     align-items: flex-start;
     font-family: 'Inter', sans-serif;
@@ -200,7 +208,6 @@
 .section-five-celebrateImage {
     width: 200px;
     height: 200px;
-    /* align-items: center; */
     margin-right: 6%;
     padding-left: 5%;
     padding-right: 2%;
@@ -214,14 +221,52 @@
 }
 
 /* Section Six */
-.section-six-fifty-percent-off-images {
-    display: grid;
+.six-section{
+    margin: 0% 10%;
 }
-#section-six-title{
+.section-six-fifty-percent-off-images-one {
+
+    width: 100%;
+    margin-top: 430px;
+}
+
+.holyday-discounts{
+    display: sticky;
+}
+
+.holyday-discounts-gift-img{
+    position: absolute;
+    left: 187px;
+    top: 225px;
+    margin-top: 214%;
+    width: 565px;
+    height: 436px;
+}
+
+.holyday-discounts-img-2{
+    position: absolute;
+    right: 425px;
+    top: 205px;
+    margin-top: 216%;
+    height: 240px;
+    width: 240px;
+}
+.holyday-discounts-model{
+    position: absolute;
+    right: 135px;
+    top: 185px;
+    z-index: -1;
+    width: 408px;
+    height: 385px;
+    margin-top: 210%;
+}
+
+#section-six-title {
     text-align: center;
     margin-left: 100px;
 }
-#section-six-title>h3{
+
+#section-six-title>h3 {
     color: #070211;
     font-size: 24px;
     font-family: Inter;
@@ -229,14 +274,26 @@
     margin-top: 170px;
     margin-right: 99px;
 }
-#section-six-title>h1{
+
+#section-six-title>h1 {
     color: #070211;
-font-size: 72px;
-font-family: Merriweather;
-font-weight: 900;
-margin-top: 30px;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    margin-top: 30px;
     margin-right: 99px;
 }
+
+#section-six-title>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-right: 99px;
+
+}
+
 /* Section Seven */
 .section-seven-div-tiitle-first-name {
     color: #FF0000;
@@ -255,13 +312,14 @@ margin-top: 30px;
     margin-left: 10%;
     margin-top: 1%;
 }
-.section-seven-div-tiitle-third-name{
+
+.section-seven-div-tiitle-third-name {
     color: rgba(7, 2, 17, 0.60);
-font-size: 15px;
-font-family: Inter;
-font-weight: 400;
-margin-left: 10%;
-margin-top: 1%;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    margin-left: 10%;
+    margin-top: 1%;
 }
 
 
@@ -283,11 +341,13 @@ margin-top: 1%;
 
 
 }
-.section-seven-iamge>img:hover{
+
+.section-seven-iamge>img:hover {
     border-radius: 15px;
     border: 5px solid red;
-   
+
 }
+
 /* Section Eight */
 .section-eight {
     margin: 10% 10%;
@@ -313,6 +373,7 @@ margin-top: 1%;
     font-family: 'Inter', sans-serif;
     padding-bottom: 20px;
 }
+
 /* button */
 
 .section-eight-button input {
@@ -361,16 +422,19 @@ margin-top: 1%;
 .footer-first-title>h4 {
     margin-right: 40%;
 }
-.footer-title-position>h5{
+
+.footer-title-position>h5 {
     font-size: 15px;
     margin-left: -55%;
 }
-.website-link>h5{
-    margin-left: -55%;  
+
+.website-link>h5 {
+    margin-left: -55%;
     margin-top: 10px;
     font-size: 15px;
 
 }
+
 #social-logo {
     margin-left: 40%;
 }
@@ -379,7 +443,7 @@ margin-top: 1%;
     text-align: center;
     width: 20px;
     padding: 2%;
-    
+
 }
 
 .footer-logo-image>img {
