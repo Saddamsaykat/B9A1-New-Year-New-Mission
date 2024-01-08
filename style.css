@@ -1,3 +1,12 @@
+* {
+    margin: 0%;
+    padding: 0%S;
+    border-radius: 0%;
+}
+
+
+
+
 /* First Section */
 .first-section {
     background-image: url(./resources/BannerImage.png), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
@@ -89,7 +98,8 @@
     color: white;
     margin: 2% auto;
 }
-.third-section-head-div{
+
+.third-section-head-div {
 
     margin-left: 83px;
     margin-top: 90px;
@@ -98,40 +108,199 @@
 
 
 }
-.third-section-first-title{
+
+.third-section-first-title {
     font-family: 'Merriweather', serif;
     letter-spacing: 7.04px;
     font-size: 54px;
     font-weight: 900;
 }
 
-.third-section-second-title{
+.third-section-second-title {
     font-family: 'Inter', sans-serif;
     color: rgba(255, 255, 255, 0.80);
     font-size: 14px;
     line-height: 30px;
     font-weight: 400;
 }
-.third-section-third-title{
+
+.third-section-third-title {
     font-family: 'Inter', sans-serif;
     margin-left: 10px;
     padding-top: 10px;
     font-size: 20px;
 }
+
 /* Four Section */
 .four-section {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    font-family: 'Inter', sans-serif;
+border-radius: 25px;
+margin-top: 5%;
+height: 100%;
+width: 80%;
+margin-left: 10%;
+}
+.four-section-title-div{
+    text-align: center; 
+    padding: 100px;
+}
+
+.four-section-title-div>h2{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 32px;
+}
+#four-section-buttion{
+    margin-top: 3%;
+    border: 0;
+    background-color: #FF0000 ;
+    padding: 1% 2%;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+
 }
 
 /* Section Five */
+.section-five{
+    margin: 3% 10%;
+    display: flex;
+    
+    /* justify-content: space-around; */
+    gap: 100px;
+    align-items: flex-start;
+    font-family: 'Inter', sans-serif;
+}
+.section-five-div-title-one{
+    width: 48%;
+    padding-top: 4%;   
+    }
+.section-five-div-title-one>h3{
+    color: #FF0000;
 
+}
+.section-five-div-title-one>h2{
+    font-family: 'Merriweather', serif;  
+    font-size: 48px;
+    
+}
+.section-five-div-title-one>p{
 
+    margin-right: 10%;
+    font-size: 10px;
+}
+.section-five-celebrateImage{
+width: 200px;
+height: 200px;
+/* align-items: center; */
+margin-right: 6%;
+padding-left: 5%;
+padding-right: 2%;
+border: 7px solid red;
+border-radius: 10000px;
+padding: 20px;
+}
+.five-section-2024{
+    margin-top: 4%;
+}
 /* Section Six */
+.section-six-fifty-percent-off-images{
+    display: grid;
+}
 
 /* Section Seven */
+.section-seven-iamge{
+    margin-left: 5%;
+    
+}
 
 /* Section Eight */
-.section-eight{
-    background: rgba(255, 0, 0, 0.05); 
+.section-eight {
+    margin: 10% 10%;
+    padding: 5%;
+    background: rgba(255, 0, 0, 0.05);
     border-radius: 16px;
+    text-align: center;
+}
+.section-eight>img{
+    width: 80px;
+    padding-bottom: 20px;
+}
+
+.section-eight>h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.section-eight>p{
+    font-family: 'Inter', sans-serif; 
+    padding-bottom: 20px;
+}
+.section-eight-button>input{
+    position: absolute;
+}
+input[type="email"]{
+    border: none;
+    width: 45%;
+    height: 50px;
+}
+.section-eight-button>button{
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FF0000;
+    color: white;
+    padding: 0 16px;
+    font-weight: 600;
+    border: none;
+    height: 50px;
+    font-size: 26px;
+  
+}
+
+/* footer */
+.footer-content {
+    color: white;
+    background-color: #070211;
+    margin-top: 3%;
+    padding: 10%;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-first-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    margin-right: 8%;
+
+}
+
+.footer-first-title>h4 {
+    margin-right: 45%;
+}
+
+#social-logo img {
+    text-align: center;
+    /* align-items: center; */
+    padding-left: 10px;
+}
+
+.footer-logo-image>img {
+     
+    display:inline-block;
+    align-items: center;
+    padding: 10px;
+    width: 55px;
+}
+
+.footer-second-tittle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-second-tittle {
+    padding-top: 3%;
 }
